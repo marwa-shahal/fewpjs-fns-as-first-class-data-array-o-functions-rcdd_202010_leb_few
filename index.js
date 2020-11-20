@@ -27,7 +27,5 @@ const routine = ["wakeDog(dogName, dogBreed) " , "leashDog(dogName, dogBreed) ",
 
 function exerciseDog(dogName,dogBreed){ 
   for (let i=0; i<=routine.length; i++ )
-  
-  console.log (`routine[i](dogName,dogBreed)`);
-  return `routine[i](dogName,dogBreed)`;
+  return `routine[i]()`;
 }
