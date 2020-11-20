@@ -23,7 +23,7 @@ function walkHome(dogName, dogBreed) {
   return `Unleash ${dogName} the ${dogBreed}`;
 }
 
-const routine = [function() {wakeDog(dogName, dogBreed) }, function() {leashDog(dogName, dogBreed)}, function() {walkToPark(dogName, dogBreed)} , function() {throwFrisbee(dogName, dogBreed)},function(){walkHome(dogName, dogBreed)} , function() {unleashDog(dogName, dogBreed)} ];
+const routine = [wakeDog, leashDog,walkToPark,  throwFrisbee,walkHome , unleashDog ];
 
 function exerciseDog(dogName,dogBreed){ 
   for (let i=0; i<=routine.length; i++ )
