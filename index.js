@@ -3,8 +3,8 @@ function wakeDog(dogName, dogBreed) {
   return `Wake ${dogName} the ${dogBreed}`;
 }
 function leashDog(dogName, dogBreed) {
-  console.log(`leash ${dogName} the ${dogBreed}`);
-  return `leash ${dogName} the ${dogBreed}`;
+  console.log(`Leash ${dogName} the ${dogBreed}`);
+  return `Leash ${dogName} the ${dogBreed}`;
 }
 function walkToPark(dogName, dogBreed) {
   console.log(`Walk to the park with ${dogName} the ${dogBreed}`);
@@ -14,7 +14,7 @@ function throwFrisbee(dogName, dogBreed) {
   console.log(`Throw the frisbee for ${dogName} the ${dogBreed}`);
   return `Throw the frisbee for ${dogName} the ${dogBreed}`;
 }
-function walkhome(dogName, dogBreed) {
+function walkHome(dogName, dogBreed) {
   console.log(`Walk home with ${dogName} the ${dogBreed}`);
   return `Walk home with ${dogName} the ${dogBreed}`;
 }
@@ -23,7 +23,7 @@ function walkhome(dogName, dogBreed) {
   return `Unleash ${dogName} the ${dogBreed}`;
 }
 
-const routine = [function() {wakeDog(dogName, dogBreed) }, function() {leashDog(dogName, dogBreed)}, function() {walkToPark(dogName, dogBreed)} , function() {throwFrisbee(dogName, dogBreed)},function(){walkhome(dogName, dogBreed)} , function() {unleashDog(dogName, dogBreed)} ];
+const routine = [function() {wakeDog(dogName, dogBreed) }, function() {leashDog(dogName, dogBreed)}, function() {walkToPark(dogName, dogBreed)} , function() {throwFrisbee(dogName, dogBreed)},function(){walkHome(dogName, dogBreed)} , function() {unleashDog(dogName, dogBreed)} ];
 
 function exerciseDog(dogName,dogBreed){ 
   for (let i=0; i<=routine.length; i++ )
