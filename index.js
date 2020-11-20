@@ -30,4 +30,4 @@ function exerciseDog(dogName,dogBreed){
    return  routine[i](dogName,dogBreed);
   
 }
-const newroutine=routine.map
+const newroutine=routine.map(exerciseDog);
